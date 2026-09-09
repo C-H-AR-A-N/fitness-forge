@@ -71,9 +71,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "IronCore Fitness Club" },
+      { title: "Fitness Forge Fitness Club" },
       { name: "description", content: "Strength, conditioning and coaching in one club." },
-      { name: "author", content: "IronCore Fitness Club" },
+      { name: "author", content: "Fitness Forge Fitness Club" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -123,7 +123,7 @@ function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
         <Link to="/" className="font-display text-2xl tracking-widest text-foreground">
-          Iron<span className="text-primary">Core</span>
+          Fitness<span className="text-primary">Forge</span>
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex">
@@ -180,7 +180,7 @@ function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-3">
         <div>
           <p className="font-display text-2xl tracking-widest">
-            Iron<span className="text-primary">Core</span>
+            Fitness<span className="text-primary">Forge</span>
           </p>
           <p className="mt-3 max-w-xs text-sm text-muted-foreground">
             A strength and conditioning club built around coaching, not machines.
@@ -209,7 +209,7 @@ function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-border py-5 text-center text-xs uppercase tracking-widest text-muted-foreground">
-        © {new Date().getFullYear()} IronCore Fitness Club — owner: Charan
+        © {new Date().getFullYear()} Fitness Forge Fitness Club — owner: Charan
       </div>
     </footer>
   );

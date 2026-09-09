@@ -4,13 +4,13 @@ import { useState, type FormEvent } from "react";
 export const Route = createFileRoute("/membership")({
   head: () => ({
     meta: [
-      { title: "Membership Plans — IronCore Fitness Club" },
+      { title: "Membership Plans — Fitness Forge Fitness Club" },
       {
         name: "description",
         content:
-          "Compare IronCore membership plans: Flex, Performance and Elite. Monthly billing, no lock-in, free trial week.",
+          "Compare Fitness Forge membership plans: Flex, Performance and Elite. Monthly billing, no lock-in, free trial week.",
       },
-      { property: "og:title", content: "Membership Plans — IronCore Fitness Club" },
+      { property: "og:title", content: "Membership Plans — Fitness Forge Fitness Club" },
       {
         property: "og:description",
         content: "Flex, Performance and Elite plans. Monthly billing, no lock-in.",

@@ -4,13 +4,13 @@ import { useState, type FormEvent } from "react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact & Free Trial — IronCore Fitness Club" },
+      { title: "Contact & Free Trial — Fitness Forge Fitness Club" },
       {
         name: "description",
         content:
-          "Book a free trial week at IronCore Fitness Club or send the team a question about classes, coaching and membership.",
+          "Book a free trial week at Fitness Forge Fitness Club or send the team a question about classes, coaching and membership.",
       },
-      { property: "og:title", content: "Contact & Free Trial — IronCore Fitness Club" },
+      { property: "og:title", content: "Contact & Free Trial — Fitness Forge Fitness Club" },
       {
         property: "og:description",
         content: "Book a free trial week or ask us about classes, coaching and membership.",
@@ -105,7 +105,7 @@ function Contact() {
           </div>
           <div>
             <h2 className="text-xl">Owner</h2>
-            <p className="mt-2 text-sm text-muted-foreground">Charan V, IronCore Fitness Club</p>
+            <p className="mt-2 text-sm text-muted-foreground">Charan V, Fitness Forge Fitness Club</p>
           </div>
         </aside>
       </div>

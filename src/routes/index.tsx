@@ -4,13 +4,13 @@ import heroImage from "@/assets/hero-gym.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "IronCore Fitness Club — Strength & Conditioning" },
+      { title: "Fitness Forge Fitness Club — Strength & Conditioning" },
       {
         name: "description",
         content:
-          "IronCore Fitness Club: coached strength training, group classes and flexible memberships. Book a class or join today.",
+          "Fitness Forge Fitness Club: coached strength training, group classes and flexible memberships. Book a class or join today.",
       },
-      { property: "og:title", content: "IronCore Fitness Club — Strength & Conditioning" },
+      { property: "og:title", content: "Fitness Forge Fitness Club — Strength & Conditioning" },
       {
         property: "og:description",
         content: "Coached strength training, group classes and flexible memberships.",
@@ -48,7 +48,7 @@ function Home() {
       <section className="relative isolate overflow-hidden">
         <img
           src={heroImage}
-          alt="Athlete performing a deadlift in the IronCore training floor"
+          alt="Athlete performing a deadlift in the Fitness Forge training floor"
           width={1600}
           height={1000}
           className="absolute inset-0 h-full w-full object-cover"
@@ -56,7 +56,7 @@ function Home() {
         <div className="hero-overlay absolute inset-0" />
         <div className="relative mx-auto max-w-6xl px-4 py-28 md:py-40">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-primary">
-            IronCore Fitness Club
+            Fitness Forge Fitness Club
           </p>
           <h1 className="mt-5 max-w-2xl text-5xl leading-[0.95] md:text-7xl">
             Train heavy.

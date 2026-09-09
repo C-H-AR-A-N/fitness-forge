@@ -4,13 +4,13 @@ import { useState } from "react";
 export const Route = createFileRoute("/trainers")({
   head: () => ({
     meta: [
-      { title: "Coaches — IronCore Fitness Club" },
+      { title: "Coaches — Fitness Forge Fitness Club" },
       {
         name: "description",
         content:
-          "Meet the IronCore coaching team — strength, conditioning, mobility and endurance specialists. Request a session.",
+          "Meet the Fitness Forge coaching team — strength, conditioning, mobility and endurance specialists. Request a session.",
       },
-      { property: "og:title", content: "Coaches — IronCore Fitness Club" },
+      { property: "og:title", content: "Coaches — Fitness Forge Fitness Club" },
       {
         property: "og:description",
         content: "Strength, conditioning, mobility and endurance specialists.",
