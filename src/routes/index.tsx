@@ -4,13 +4,13 @@ import heroImage from "@/assets/hero-gym.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Fitness Forge Fitness Club — Strength & Conditioning" },
+      { title: "Fitness Forge — Strength & Conditioning" },
       {
         name: "description",
         content:
-          "Fitness Forge Fitness Club: coached strength training, group classes and flexible memberships. Book a class or join today.",
+          "Fitness Forge: coached strength training, group classes and flexible memberships. Book a class or join today.",
       },
-      { property: "og:title", content: "Fitness Forge Fitness Club — Strength & Conditioning" },
+      { property: "og:title", content: "Fitness Forge — Strength & Conditioning" },
       {
         property: "og:description",
         content: "Coached strength training, group classes and flexible memberships.",
@@ -56,7 +56,7 @@ function Home() {
         <div className="hero-overlay absolute inset-0" />
         <div className="relative mx-auto max-w-6xl px-4 py-28 md:py-40">
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-primary">
-            Fitness Forge Fitness Club
+            Fitness Forge
           </p>
           <h1 className="mt-5 max-w-2xl text-5xl leading-[0.95] md:text-7xl">
             Train heavy.

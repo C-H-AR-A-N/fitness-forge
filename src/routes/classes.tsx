@@ -4,13 +4,13 @@ import { useMemo, useState } from "react";
 export const Route = createFileRoute("/classes")({
   head: () => ({
     meta: [
-      { title: "Class Timetable — Fitness Forge Fitness Club" },
+      { title: "Class Timetable — Fitness Forge" },
       {
         name: "description",
         content:
           "Browse the Fitness Forge weekly timetable — strength, HIIT, mobility and spin — and reserve your spot in seconds.",
       },
-      { property: "og:title", content: "Class Timetable — Fitness Forge Fitness Club" },
+      { property: "og:title", content: "Class Timetable — Fitness Forge" },
       {
         property: "og:description",
         content: "Strength, HIIT, mobility and spin classes. Reserve your spot in seconds.",

@@ -71,9 +71,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Fitness Forge Fitness Club" },
+      { title: "Fitness Forge" },
       { name: "description", content: "Strength, conditioning and coaching in one club." },
-      { name: "author", content: "Fitness Forge Fitness Club" },
+      { name: "author", content: "Fitness Forge" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -209,7 +209,7 @@ function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-border py-5 text-center text-xs uppercase tracking-widest text-muted-foreground">
-        © {new Date().getFullYear()} Fitness Forge Fitness Club — owner: Charan
+        © {new Date().getFullYear()} Fitness Forge — owner: Charan
       </div>
     </footer>
   );
